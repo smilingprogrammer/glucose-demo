@@ -1,6 +1,6 @@
 # Glucose Agentic AI
 
-This project is an agentic AI assistant for the Glucose product, designed to answer user questions using a knowledge base and Gemini AI API. It features multi-turn memory for natural, context-aware conversations.
+This project is an agentic AI assistant demo for the Glucose product, designed to answer user questions using a knowledge base and Gemini AI API. It features multi-turn memory for natural, context-aware conversations.
 
 ## Features
 - Retrieval-Augmented Generation (RAG) pipeline
@@ -12,10 +12,10 @@ This project is an agentic AI assistant for the Glucose product, designed to ans
 ## Setup
 1. **Install dependencies:**
    ```sh
-   pip install google-generativeai numpy
+   pip install -r requirements.txt
    ```
 2. **Get a Gemini API key:**
-   - Visit [Google AI Studio](https://aistudio.google.com/app/apikey) and generate an API key.
+   - Visit [Google AI Studio](https://aistudio.google.com/app/apikey) and generate an API key and place it in `agentic_answer.py`.
 3. **Prepare the knowledge base:**
    - Ensure `glucose_knowledge_base.json` is present and structured.
    - Run `embed_kb.py` to generate `glucose_kb_embeddings.json`.

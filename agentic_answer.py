@@ -2,7 +2,7 @@ import json
 import numpy as np
 from google import genai
 
-GEMINI_API_KEY = "AIzaSyBlzEHw55pLzMEcWBZjjL5Y1GoFbEZzweo"
+GEMINI_API_KEY = "Your API KEY"
 EMBEDDINGS_PATH = "glucose_kb_embeddings.json"
 TOP_K = 3
 
