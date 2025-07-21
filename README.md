@@ -42,8 +42,8 @@ This agent uses a Retrieval-Augmented Generation (RAG) pipeline:
 ```mermaid
 graph TD
     A[User Input] --> B[Embed Query with Gemini Embeddings]
-    B --> C[Retrieve Top KB Chunks - Cosine Similarity)]
-    C --> D[Build Prompt: History + KB + Question)]
+    B --> C[Retrieve Top KB Chunks - Cosine Similarity]
+    C --> D[Build Prompt: History + KB + Question]
     D --> E[Gemini LLM Generates Answer]
     E --> F[Return Answer to User]
     F --> G[Update Conversation History]
