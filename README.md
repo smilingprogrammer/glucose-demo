@@ -18,6 +18,7 @@ This project is an agentic AI assistant demo for the Glucose product, designed t
    - Visit [Google AI Studio](https://aistudio.google.com/app/apikey) and generate an API key and place it in `agentic_answer.py`.
 3. **Prepare the knowledge base:**
    - Ensure `glucose_knowledge_base.json` is present and structured.
+   - The present knowledge base which is available in glucose_knowledge_base.txt was scraped from https://www.five-whys.com/glucose and then generated as embeddings.
    - Run `embed_kb.py` to generate `glucose_kb_embeddings.json`.
 4. **Run the agent:**
    ```sh
